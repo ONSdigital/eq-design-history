@@ -1,7 +1,7 @@
 ---
-title: An example post with screenshots
-description: This example was generated using a script and shows how to automatically include a list of screenshots at the end of your post.
-date: 2019-12-31
+title: Testing prepopulated surveys
+description: The PRODCOM business survey plays back data received the previous year from the respondent. We designed a prototype to test how this could work online.
+date: 2023-06-02
 screenshots:
   items:
     - text: Design history index

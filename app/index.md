@@ -1,8 +1,8 @@
 ---
 homepage: true
 layout: home
-title: A design history for your GOV.UK service
-description: A permanent record of how your service has developed over time.
+title: A design history for the electronic questionnaire service
+description: A permanent record of how components and interactions have developed over time.
 pagination:
   data: collections.post
   reverse: true

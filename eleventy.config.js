@@ -8,7 +8,8 @@ module.exports = function (eleventyConfig) {
     headingPermalinks: true,
     header: {
       organisationLogo: false,
-      productName: 'Design history',
+      organisationName: 'ONS',
+      productName: 'Electronic Questionnaire',
       search: {
         indexPath: '/search.json',
         sitemapPath: '/sitemap'
