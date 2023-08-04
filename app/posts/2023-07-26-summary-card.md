@@ -4,9 +4,9 @@ description: Not reinventing the wheel
 date: 2023-07-26
 ---
 
-Something that was ruled out of scope in an ealier look at presenting pre-populated data back to users was the summary card pattern used in the GOV.UK Design System.
+Something that was ruled out of scope in an earlier look at presenting pre-populated data back to users was the summary card pattern used in the GOV.UK Design System.
 
-As we unexpectedly had some time due to re-priorisation of work, we had a chance to look at how we could use this component for ONS. As it doesn't currently exist in our prototype kit / design system we'd either need to recreate it, or include it by including govuk-frontend as a node module.
+As we unexpectedly had some time due to re-prioritisation of work, we had a chance to look at how we could use this component for ONS. As it doesn't currently exist in our prototype kit / design system we'd either need to recreate it, or include it by including govuk-frontend as a node module.
 
 This surfaced a bigger discussion within the community about the value of maintaining our own design system when the GOV.UK one has 85% percent of the patterns and components we have, plus some we don't. It also benefits from wider research and accessibility testing.
 
@@ -18,7 +18,7 @@ Speaking with interaction designers and front-end devs it was felt that the pros
 So this could only be a proof-of-concept. If it proves effective in user research then an ONS version of the component would need to be built and maintained by our own design system team.
 
 
-In order to use the component, we ahd to make changes to the ONS prototype kit to add govuk-frontend into the list of node modules it referenced.
+In order to use the component, we had to make changes to the ONS prototype kit to add govuk-frontend into the list of node modules it referenced.
 
 We also needed to update the helper file `create-nunjucks-environment` to add govuk-frontend into the source list alongside the ons one:
 ```const templatePaths = ['src', 'src/prototypes', `node_modules/@ons/design-system${dsVersionDirectory}`];```

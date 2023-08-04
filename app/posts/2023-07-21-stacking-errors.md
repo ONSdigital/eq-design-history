@@ -34,8 +34,8 @@ So we needed to make a simple tweak there...
       ```</li>```
     ```</ol>```
 
-Making it an ordered list instead of paragraphs, or a paragraph of line-broken sentances, makes this much more semantic HTML.
+Making it an ordered list instead of paragraphs, or a paragraph of line-broken sentences, makes this much more semantic HTML.
 
 ## Next steps
 
-Needs some more accesibility testing and then should be discussed with the design system team - shold we replace all error inputs with the new code - even if there is only one error, or stick with a paragraph?
+Needs some more accessibility testing and then should be discussed with the design system team - should we replace all error inputs with the new code - even if there is only one error, or stick with a paragraph?

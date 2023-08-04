@@ -4,7 +4,7 @@ description: Designing a better way than radios or select to loop through a list
 date: 2023-07-11
 ---
 
-This originally came about as a challenge from our internal users to reduce the lower limit on a select dropdown from 25 items to 24. When we invetigated the reason for this, it transpired that the initial limit was set very high to disuade survey creators from overusing the component. Government-wide research has shown the select component to perform badly in accessibility, and [current guidance](https://design-system.service.gov.uk/components/select/) is to only use as a last resort.
+This originally came about as a challenge from our internal users to reduce the lower limit on a select dropdown from 25 items to 24. When we investigated the reason for this, it transpired that the initial limit was set very high to dissuade survey creators from overusing the component. Government-wide research has shown the select component to perform badly in accessibility, and [current guidance](https://design-system.service.gov.uk/components/select/) is to only use as a last resort.
 
 When asked what to use instead, our recommendation was to use radio buttons. Either one long list, or a series of radio lists becoming more specific each time, e.g. select continent, select country, select town.
 
@@ -16,9 +16,9 @@ Enter the checkboxes.
 
 ![screenshot of a long list of checkboxes](/creating-a-list/checkboxes.png "")
 
-Because we now understood the business need to be for the user to report the prices of only the relevent products on a list, we could make this a better interaction by:
-1. Allowing the user to create a 'short list' of only the relevant products by checking off each relvant one from a longer list
-2. Looping through that short list with exising EQ functionality to ask the follow-up question
+Because we now understood the business need to be for the user to report the prices of only the relevant products on a list, we could make this a better interaction by:
+1. Allowing the user to create a 'short list' of only the relevant products by checking off each relevant one from a longer list
+2. Looping through that short list with existing EQ functionality to ask the follow-up question
 
 Instead of using 40+ radios or a select dropdown, and relying on a user remembering which one they had already completed, we had a slightly longer interaction but a much lower cognitive burden. It was also much more accessibile.
 
