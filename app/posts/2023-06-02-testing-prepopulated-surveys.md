@@ -6,7 +6,7 @@ date: 2023-06-02
 
 One of the features of existing (paper) business surveys is prepopulated data. How this would appear to the user of digital service is the focus of this post and accompanying prototype.
 
-The constraints mainly centered around how the data would be provided to us, which was in a spreadsheet with little to no ordering of the data. Sometimes it spanned mulitple columns, sometimes just one. Sometimes it wsa absent altogether.
+The constraints mainly centered around how the data would be provided to us, which was in a spreadsheet with little to no ordering of the data. Sometimes it spanned mulitple columns, sometimes just one. Sometimes it was absent altogether.
 
 ![screenshot of a spreadsheet with data inconsistently spread across columns](/testing-prepopulated-surveys/spreadsheet.png "The raw prepopulating data")
 
